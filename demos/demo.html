@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>j</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+    .textarea-wrap{
+      background-color: #fff;
+      font-size: 13px;
+      color: #333;
+      padding: 10px;
+    }
+    </style>
+  </head>
+
+  <body ontouchstart>
+    <div class="textarea-wrap">
+      <textarea name="" id="advice" cols="30" rows="10"></textarea>
+      <p>
+        <span class="currentVal">0</span><em>/</em><span>20</span>
+      </p>
+    </div>
+    <!--  -->
+    <script src="js/lib/jquery-2.1.4.js"></script>
+    <script src="js/jsForTextarea.min.js"></script>
+    <script>
+    // $("#advice").on("input propertychange", function(){
+     var a = new limitWordsInput({
+          ele1: $("#advice"),
+          ele2: $(".currentVal"),
+          limits: 20,
+          fn: function(){
+            // $.toast("字数不能超出100");
+           alert("字数不能超出20");
+          }
+        });
+    // });
+    </script>
+  </body>
+</html>

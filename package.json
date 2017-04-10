@@ -1,0 +1,33 @@
+{
+  "name": "jsForTextarea",
+  "version": "1.0.0",
+  "description": "this js is made for to deal with the limited quantity words in a input or textarea",
+  "keywords": [
+    "input",
+    "textarea",
+    "limited words in a input"
+  ],
+  "scripts": {},
+  "author": "Tom Zhu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhushixintom/jsForTextarea.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhushixintom/jsForTextarea/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-ejs": "^2.1.1",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-header": "^1.7.1",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.3"
+  }
+}
